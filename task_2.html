@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Conference Registration Form</h2>
+
+    <form>
+        Full Name: <br>
+        <input type="text" name="fullname"
+            placeholder="Enter your full name"> <br>
+
+        Email Address: <br>
+        <input type="email" name="email" 
+            placeholder="Enter you email address"> <br>
+
+        Age: <br>
+        <input type="number" name="age"
+            placeholder="18">
+
+        <br><br>
+
+        Gender: <br><br>
+
+        <input type="radio" name="gender" value="male"> Male <br>
+        <input type="radio" name="gender" value="Female"> Female 
+
+        <br><br>
+
+        Country of Residence: <br>
+        <select name="Country">
+            <option value="Malaysia">Malaysia</option>
+            <option value="Singapore">Singapore</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Other">Other</option>
+        </select>
+
+        <br><br>
+
+        Areas of Interest: <br><br>
+        <input type="checkbox" name="Interest" value="Software Development"> Software Development <br>
+        <input type="checkbox" name="Interest" value="Data Science"> Data Science <br>
+        <input type="checkbox" name="Interest" value="Cybersecurity"> Cybersecurity <br>
+        <input type="checkbox" name="Interest" value="Artificial Intelligence"> Artificial Intelligence
+
+        <br><br>
+        
+        Experience Level: <br><br>
+        
+        <input type="radio" name="Level" value="Beginner"> Beginner <br>
+        <input type="radio" name="Level" value="Intermediate"> Intermediate <br>
+        <input type="radio" name="Level" value="Advanced"> Advanced
+
+        <br><br>
+
+        Comments or Questions: <br>
+        <textarea name="comments" rows="5" cols="40"
+            placeholder="Any comments or questions?"></textarea>
+        
+        <br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
